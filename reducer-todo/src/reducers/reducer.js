@@ -31,7 +31,8 @@ export function reducer(state, action) {
             }
         case "CLEAR_COMPLETE":
             return {
-                
+                ...state,
+                todos: state.todos.filter(todo => !todo.completed)
             }
         default:
             return state
