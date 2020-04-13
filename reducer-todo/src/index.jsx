@@ -3,7 +3,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 // Asset imports
-import './index.css'
+import './App.css'
 
 // Local imports
 import App from './App'
