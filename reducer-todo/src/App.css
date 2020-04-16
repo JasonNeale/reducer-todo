@@ -1,0 +1,50 @@
+body {
+    background-color: #333;
+    color: #EEE;
+}
+
+.page-wrapper {
+    width: 900px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+
+.form-div {
+    border-bottom: thin solid #CCC;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+input {
+    padding: 6px;
+    background: none;
+    border: none;
+    color: white;
+    border-bottom: 1px solid white;
+    margin-top: 0;
+    margin-right: 8px;
+    width: 400px;
+  }
+  
+  input::placeholder {
+    color: #888;
+  }
+  
+  .title-input {
+    font-size: 24px;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+
+  ul {
+      list-style: none;
+  }
+
+  .completed {
+    text-decoration: line-through;
+    font-weight: 700;
+    color: darkgreen;
+}
